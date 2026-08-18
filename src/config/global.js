@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Planificación y modelado conceptual y lógico de estructuras de datos',
+    Description:
+      'Este componente capacita al aprendiz en la ingeniería de datos inicial, abarcando desde la gestión del proyecto hasta la transformación relacional. Mediante la estructuración de planes de trabajo y el dominio del Modelo Entidad-Relación y esquemas lógicos, el estudiante resolverá problemas del entorno productivo, garantizando que las estructuras tecnológicas diseñadas respondan fielmente a los requerimientos y reglas del negocio corporativo.  ',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.png',
       },
     ],
   },
@@ -31,27 +36,152 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Introducción a los sistemas de almacenamiento y ciclo de vida',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Evolución histórica del almacenamiento de datos y limitaciones del enfoque tradicional',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Archivos planos en la actualidad',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo:
+              'Emergencia del paradigma de bases de datos y conceptualización de los SGBD',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo:
+              'Arquitectura de tres niveles ANSI-SPARC y terminología fundamental',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo:
+              'Propiedades ACID y robustez transaccional en entornos corporativos',
+            hash: 't_1_5',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo:
+          'Planificación técnica y gestión de proyectos de diseño de estructuras de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Metodologías de planificación y el ciclo de vida del desarrollo de <i>software</i> (CVDS)',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo:
+              'Elaboración técnica del plan de trabajo: actividades, secuenciación y dependencias',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo:
+              'Herramientas de gestión y diagramas de planificación: Gantt y estimación de recursos',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo:
+          'Modelado conceptual de datos: componentes esenciales del Modelo Entidad-Relación (MER)',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo:
+              'Teoría de conjuntos y conceptualización de entidades fuertes y débiles',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              'Taxonomía exhaustiva de atributos: simples, compuestos, multivaluados y derivados',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Teoría formal de claves para la integridad semántica de los datos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Restricción de dominio de un atributo',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo:
+          'Semántica avanzada y extensiones en el modelado conceptual (MERE)',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo:
+              'El concepto de relación: grado, cardinalidad y restricciones de participación',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo:
+              'Extensiones del Modelo (MERE): jerarquías de generalización y especialización',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo:
+              'Semántica de la agregación y restricciones de exclusividad en relaciones',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo:
+          'Ingeniería de <i>software</i> relacional: metodología de transformación lógica y herramientas CASE',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo:
+              'Arquitectura del modelo lógico relacional y la teoría de Codd',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo:
+              'Reglas de transformación formal del MER/MERE al Modelo Relacional de tablas',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo:
+              'Criterios de selección e Ingeniería de <i>Software</i> Asistida por Computadora (Herramientas CASE)',
+            hash: 't_5_3',
+          },
+        ],
       },
     ],
     subMenu: [
