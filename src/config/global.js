@@ -226,15 +226,87 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Atributos',
+      significado: 'Propiedades descriptivas de una entidad o relación que poseen una semántica y un valor específico para cada instancia de la misma.'
     },
+    {
+      termino: 'Clave primaria (PK)',
+      significado: 'Identificador único y obligatorio seleccionado por el diseñador para asegurar que cada instancia de una entidad sea distinguible de todas las demás.'
+    },
+    {
+      termino: 'DBA',
+      significado: 'Siglas de Database Administrator (Administrador de Bases de Datos), perfil profesional responsable de la gestión, mantenimiento y configuración técnica de los sistemas de datos.'
+    },
+    {
+      termino: 'Entidad',
+      significado: 'Cualquier objeto, persona, lugar, concepto o evento del mundo real que posee una existencia independiente y sobre el cual la organización necesita almacenar información.'
+    },
+    {
+      termino: 'Esquema de BD',
+      significado: 'Descripción formal y global de la estructura lógica de la base de datos, que actúa como el esqueleto analítico del sistema.'
+    },
+    {
+      termino: 'Herramientas CASE',
+      significado: 'Soluciones de software especializado (Computer-Aided Software Engineering) que automatizan la diagramación, transformación lógica y generación de código de bases de datos.'
+    },
+    {
+      termino: 'Llave foránea (FK)',
+      significado: 'Mecanismo de integridad referencial donde la clave primaria de una tabla se replica en otra para establecer un vínculo lógico entre ambas estructuras.'
+    },
+    {
+      termino: 'Metadatos',
+      significado: 'Definidos estrictamente como datos acerca de los datos; son las descripciones lógicas de la estructura almacenadas en el catálogo o diccionario de datos del sistema.'
+    },
+    {
+      termino: 'Propiedades ACID',
+      significado: 'Estándar de robustez transaccional que garantiza la invulnerabilidad de la información mediante la Atomicidad, Consistencia, Aislamiento y Durabilidad.'
+    },
+    {
+      termino: 'Script',
+      significado: 'Conjunto de instrucciones estructuradas en lenguaje SQL (generalmente DDL) generado de forma automatizada para crear tablas, claves y restricciones en un motor de base de datos.'
+    },
+    {
+      termino: 'SGBD',
+      significado: 'Software de alta ingeniería que actúa como interfaz entre la base de datos física, los usuarios y las aplicaciones, centralizando la administración y seguridad de los datos.'
+    },
+    {
+      termino: 'Triggers',
+      significado: 'Denominados también disparadores, son reglas de verificación estricta que se implementan para impedir la corrupción de la lógica del negocio ante acciones específicas.'
+    },
+    {
+      termino: 'Tupla de información',
+      significado: 'Constituye cada una de las filas individuales (registros) que componen una relación o tabla, representando una ocurrencia o instancia particular de los datos.'
+    }
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'CEPETEL. (2023). Introducción a bases de datos y programación SQL.',
+      link: 'https://www.cepetel.org.ar/wp-content/uploads/2024/02/Introduccion-a-Bases-de-Datos-y-Programacion-SQL.pdf'
     },
+    {
+      referencia: 'Camps Paré, R., Casillas Santillán, L., Costal Costa, D., Ginestà, M., Martín Escofet, C., & Pérez Mora, O. (2024). Software libre. Universitat Oberta de Catalunya.',
+      link: 'https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf'
+    },
+    {
+      referencia: 'Casas Roma, J. (2013). Introducción al diseño de bases de datos. Universitat Oberta de Catalunya.',
+      link: 'https://gc.scalahed.com/recursos/files/r161r/w25213w/M1CDN112_S1_Introduccion_al_diseno_de_bases.pdf'
+    },
+    {
+      referencia: 'Dalmasso, C. (2022). Introducción a las bases de datos. Escuela Superior de Comercio, Universidad Nacional de Rosario.',
+      link: 'https://esupcom.unr.edu.ar/bv_tics/archivos/informacion_complementaria/ofimatica/base_datos.pdf'
+    },
+    {
+      referencia: 'Marqués, M. (2011). Bases de datos. Departament d’Enginyeria i Ciència dels Computadors, Universitat Jaume I.',
+      link: ''
+    },
+    {
+      referencia: 'SIPECOM. (2026, 12 de enero). Bases de datos: El gran salto de los archivos físicos a la nube inteligente.',
+      link: 'https://sipecom.com/2026/01/12/bases-de-datos-el-gran-salto-de-los-archivos-fisicos-a-la-nube-inteligente/'
+    },
+    {
+      referencia: 'Torregrosa García, B. (2020). Modelos de datos. Universitat Oberta de Catalunya.',
+      link: 'https://openaccess.uoc.edu/server/api/core/bitstreams/cd624356-d7bd-4022-888f-e2324ee440aa/content'
+    }
   ],
   creditos: [
     {
@@ -242,11 +314,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Olga Constanza Bermúdez',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de línea de producción Huila',
           centro: 'Dirección General',
         },
@@ -256,9 +329,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Joinner Enrique Osorio Martínez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -266,20 +346,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Jorge David Barbosa Losada',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Cielo Damaris Angulo Rodríguez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -289,13 +399,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
