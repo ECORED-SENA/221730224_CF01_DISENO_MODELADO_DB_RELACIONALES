@@ -225,7 +225,7 @@
                     figure
                       img(src='@/assets/curso/temas/t1/img7.png', alt='' style="width: 74px").m-auto
                   .col-xl.text-white
-                    p.mb-0 Este ejemplo integra varios de los conceptos fundamentales del Modelo Entidad-Relación. La entidad #[b Paciente] corresponde a una entidad fuerte; el #[b Documento de identidad] actúa como clave primaria; la #[b Dirección de contacto] representa un atributo compuesto; los #[b Números telefónicos] corresponden a un atributo multivaluado; la #[b Edad] se modela como un atributo derivado, y el #[b Estado de afiliación] incorpora una restricción de dominio que limita los valores permitidos. En conjunto, estas decisiones contribuyen a construir un modelo conceptual consistente, preparado para su transformación al modelo lógico y a la implementación posterior de la base de datos
+                    p.mb-0 Este ejemplo integra varios de los conceptos fundamentales del Modelo Entidad-Relación. La entidad #[b Paciente] corresponde a una entidad fuerte; el #[b Documento de identidad] actúa como clave primaria; la #[b Dirección de contacto] representa un atributo compuesto; los #[b Números telefónicos] corresponden a un atributo multivaluado; la #[b Edad] se modela como un atributo derivado, y el #[b Estado de afiliación] incorpora una restricción de dominio que limita los valores permitidos. En conjunto, estas decisiones contribuyen a construir un modelo conceptual consistente, preparado para su transformación al modelo lógico y a la implementación posterior de la base de datos.
 
 </template>
 

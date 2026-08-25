@@ -145,7 +145,7 @@ export default {
           {
             numero: '4.2',
             titulo:
-              'Extensiones del Modelo (MERE): jerarquías de generalización y especialización',
+              'Extensiones del modelo (MERE): jerarquías de generalización y especialización',
             hash: 't_4_2',
           },
           {
@@ -267,7 +267,7 @@ export default {
     },
     {
       termino: 'SGBD',
-      significado: 'Software de alta ingeniería que actúa como interfaz entre la base de datos física, los usuarios y las aplicaciones, centralizando la administración y seguridad de los datos.'
+      significado: '<i>Software</i> de alta ingeniería que actúa como interfaz entre la base de datos física, los usuarios y las aplicaciones, centralizando la administración y seguridad de los datos.'
     },
     {
       termino: 'Triggers',

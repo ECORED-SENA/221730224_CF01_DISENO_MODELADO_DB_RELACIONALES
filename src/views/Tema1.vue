@@ -305,7 +305,7 @@
         .col-xl.mb-4.mb-lg-0
           .caja-4.color-3.mb-3(data-aos="fade-right")
             p.mb-0 Para comprender la importancia de las propiedades ACID en un entorno real, se presenta el caso de una entidad bancaria que procesa diariamente millones de operaciones de depósitos, retiros y transferencias mediante cajeros automáticos, aplicaciones móviles y oficinas de atención al cliente. En este contexto, la correcta ejecución de las transacciones es fundamental para garantizar la integridad de la información y la confianza de los usuarios.
-          p.mb-0 Considere la siguiente regla de negocio: un cliente desea transferir #[b $ 500.000] desde la #[b Cuenta A] hacia la #[b Cuenta B]. Desde la perspectiva de un sistema de bases de datos, esta operación no corresponde a una única acción, sino a una transacción conformada por varias operaciones de manipulación de datos (DML), las cuales deben ejecutarse en un orden específico:
+          p.mb-0 Considere la siguiente regla de negocio: un cliente desea transferir #[b $500.000] desde la #[b Cuenta A] hacia la #[b Cuenta B]. Desde la perspectiva de un sistema de bases de datos, esta operación no corresponde a una única acción, sino a una transacción conformada por varias operaciones de manipulación de datos (DML), las cuales deben ejecutarse en un orden específico:
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t1/img36.png', alt='' style="width: 500px").m-auto
@@ -317,7 +317,7 @@
                 figure.mb-4(data-aos="fade-right")
                   img(src='@/assets/curso/temas/t1/img37.svg', alt="" style="max-width: 90px").m-auto
               h4.text-center Operación 1. Lectura
-              p.mb-0.text-center Verificar que la Cuenta A disponga de un saldo igual o superior a #[b $ 500.000].
+              p.mb-0.text-center Verificar que la Cuenta A disponga de un saldo igual o superior a #[b $500.000].
         .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
           .caja-5.h-100
             .row.justify-content-center.mb-3
@@ -325,7 +325,7 @@
                 figure.mb-4(data-aos="fade-right")
                   img(src='@/assets/curso/temas/t1/img38.svg', alt="" style="max-width: 90px").m-auto
               h4.text-center Operación 2. Modificación
-              p.mb-0.text-center Debitar #[b $ 500.000] del saldo disponible en la Cuenta A.
+              p.mb-0.text-center Debitar #[b $500.000] del saldo disponible en la Cuenta A.
         .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
           .caja-5.h-100
             .row.justify-content-center.mb-3
@@ -341,7 +341,7 @@
                 figure.mb-4(data-aos="fade-left")
                   img(src='@/assets/curso/temas/t1/img38.svg', alt="" style="max-width: 90px").m-auto
               h4.text-center Operación 4. Modificación
-              p.mb-0.text-center Acreditar #[b $ 500.000] al saldo de la Cuenta B.
+              p.mb-0.text-center Acreditar #[b $500.000] al saldo de la Cuenta B.
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-4.color-5.mb-3(data-aos="fade-right")

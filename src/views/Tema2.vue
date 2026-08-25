@@ -62,7 +62,7 @@
                     figure.mb-4(data-aos="fade-right")
                       img(src='@/assets/curso/temas/t2/img6.svg', alt="" style="max-width: 90px").m-auto
                   h4.text-center Diseño conceptual
-                  p.mb-0.text-center Representa la realidad del negocio mediante entidades, atributos y relaciones, sin depender de un SGBD, del software o del #[i hardware].
+                  p.mb-0.text-center Representa la realidad del negocio mediante entidades, atributos y relaciones, sin depender de un SGBD, del #[i software] o del #[i hardware].
             .col-xl-4.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
               .caja-5.h-100
                 .row.justify-content-center.mb-3

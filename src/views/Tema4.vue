@@ -28,7 +28,7 @@
                     figure
                       img(src='@/assets/curso/temas/t1/img3.svg', alt='' style="width: 70px").m-auto
                   .col-xl
-                    p.mb-0 Una relación representa la asociación lógica entre dos o más entidades dentro de un modelo conceptual. Gracias a estas asociaciones es posible representar la forma en que interactúan los diferentes elementos de un sistema de información y reflejar las reglas de negocio que rigen el funcionamiento de una organización. Para describir correctamente una relación es necesario analizar tres aspectos fundamentales: el #[b grado], la #[b cardinalidad] y las #[b restricciones de participación]. Estos elementos permiten definir cómo se conectan las entidades y cuáles son las condiciones que regulan dicha interacción.
+                    p.mb-0 Una relación representa la asociación lógica entre dos o más entidades dentro de un modelo conceptual. Gracias a estas asociaciones es posible representar la forma en que interactúan los diferentes elementos de un sistema de información y reflejar las reglas de negocio que rigen el funcionamiento de una organización. Para describir correctamente una relación, es necesario analizar tres aspectos fundamentales: el #[b grado], la #[b cardinalidad] y las #[b restricciones de participación]. Estos elementos permiten definir cómo se conectan las entidades y cuáles son las condiciones que regulan dicha interacción.
             .col-xl-auto.col-md-9(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/temas/t4/img2.png', alt='' style="width: 300px").m-auto
@@ -180,7 +180,7 @@
                 .row(titulo="Generalización").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 Es un proceso de diseño ascendente que identifica las características comunes de varias entidades para integrarlas en una entidad más general denominada #[b superclase]. Esta estrategia reduce la redundancia y facilita la organización del modelo conceptual.
                 .row(titulo="Especialización").ajuste-cajaAcordion.ajuste-vineta
-                  p.mb-3Es un proceso de diseño descendente mediante el cual una #[b superclase] se divide en varias #[b subclases], de acuerdo con atributos, funciones o características particulares de cada grupo. Cada subclase incorpora propiedades específicas sin perder las características comunes definidas en la superclase.
+                  p.mb-3Es Un proceso de diseño descendente mediante el cual una #[b superclase] se divide en varias #[b subclases], de acuerdo con atributos, funciones o características particulares de cada grupo. Cada subclase incorpora propiedades específicas sin perder las características comunes definidas en la superclase.
           .row.justify-content-center.align-items-center.mb-5
             .col-xl.mb-4.mb-lg-0
               .caja-4.color-2.mb-3(data-aos="fade-right")
@@ -311,7 +311,7 @@
                   td.ajuste-border-tabla.texto-left.text-weight-bold Asignación de órdenes de servicio.
                   td.ajuste-border-tabla.texto-left Agregación
                   td.texto-left La relación #[b Conduce], junto con las entidades #[b Conductor] y #[b Vehículo], se considera una unidad conceptual sobre la cual se establece la relación con la entidad #[b Orden de servicio]. De esta manera, cada orden queda asociada a la combinación específica de conductor y vehículo responsable del transporte, garantizando la trazabilidad de la operación.
-      p.mb-5 Este caso evidencia cómo las extensiones del Modelo Entidad-Relación Extendido permiten representar escenarios empresariales de mayor complejidad. La aplicación de la especialización, las relaciones de cardinalidad varios a varios y la agregación facilita la construcción de modelos conceptuales más precisos, reduce la ambigüedad en las reglas de negocio y prepara la estructura de datos para su transformación al modelo lógico e implementación en un Sistema de Gestión de Bases de Datos (SGBD).
+      p.mb-5 Este caso evidencia cómo las extensiones del Modelo Entidad-Relación Extendido permiten representar escenarios empresariales de mayor complejidad. La aplicación de la especialización, las relaciones de cardinalidad varios a varios y la agregación facilitan la construcción de modelos conceptuales más precisos, reducen la ambigüedad en las reglas de negocio y preparan la estructura de datos para su transformación al modelo lógico e implementación en un Sistema de Gestión de Bases de Datos (SGBD).
       .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
         h5 Figura 10.
         span Modelo E-R Extendido (MERE) del caso de uso

@@ -96,7 +96,7 @@
                   p.mb-0 El cumplimiento de estos principios garantiza que las tablas del modelo relacional mantengan una estructura consistente y preparada para implementar mecanismos de integridad referencial, normalización y optimización del almacenamiento. Estas características constituyen la base para el diseño e implementación de bases de datos confiables en entornos organizacionales.
       Separador
       #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 5.2 Reglas de transformación formal del MER/MERE al Modelo Relacional de tablas
+        h2 5.2 Reglas de transformación formal del MER/MERE al modelo relacional de tablas
       .row.align-items-center.mb-5
         .col-xl-auto.d-none.d-xl-block(data-aos="zoom-in")
           figure
