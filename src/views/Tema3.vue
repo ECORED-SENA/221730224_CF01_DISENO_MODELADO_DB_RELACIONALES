@@ -21,7 +21,7 @@
       p.mb-5 A continuación, se presenta un video sobre el concepto de entidad en el modelado conceptual, la diferencia entre entidad e instancia, y la clasificación de las entidades en fuertes y débiles, como elementos fundamentales para el diseño de bases de datos.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/prB_JIrkerI?si=IoNKFbEo-iinEnb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Entidades fuertes y débiles en el modelado conceptual
       p.mb-5 La diferencia entre ambos tipos de entidades puede comprenderse mediante el siguiente ejemplo: 
       TabsA.color-acento-botones.mb-5(data-aos="zoom-in")
