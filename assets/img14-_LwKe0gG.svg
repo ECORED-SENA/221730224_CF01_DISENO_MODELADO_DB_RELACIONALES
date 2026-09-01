@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="93" viewBox="0 0 152 93">
+  <g id="Group_1397419" data-name="Group 1397419" transform="translate(-38.143 -4899.087)">
+    <path id="Path_1371400" data-name="Path 1371400" d="M7657-6792h58.378" transform="translate(-7566.468 11737.587)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <g id="Group_1397420" data-name="Group 1397420" transform="translate(1 1)">
+      <g id="Rectangle_472684" data-name="Rectangle 472684" transform="translate(37.143 4913.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <path d="M2,0H51a2,2,0,0,1,2,2V19a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+        <path d="M2,.5H51A1.5,1.5,0,0,1,52.5,2V18.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_472685" data-name="Rectangle 472685" transform="translate(37.143 4930.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="19" height="16" stroke="none"/>
+        <rect x="0.5" y="0.5" width="18" height="15" fill="none"/>
+      </g>
+      <g id="Rectangle_472689" data-name="Rectangle 472689" transform="translate(54.143 4930.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="19" height="16" stroke="none"/>
+        <rect x="0.5" y="0.5" width="18" height="15" fill="none"/>
+      </g>
+      <g id="Rectangle_472692" data-name="Rectangle 472692" transform="translate(71.143 4930.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="19" height="16" stroke="none"/>
+        <rect x="0.5" y="0.5" width="18" height="15" fill="none"/>
+      </g>
+      <g id="Rectangle_472686" data-name="Rectangle 472686" transform="translate(37.143 4944.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="19" height="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="18" height="14" fill="none"/>
+      </g>
+      <g id="Rectangle_472690" data-name="Rectangle 472690" transform="translate(54.143 4944.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="19" height="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="18" height="14" fill="none"/>
+      </g>
+      <g id="Rectangle_472693" data-name="Rectangle 472693" transform="translate(71.143 4944.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="19" height="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="18" height="14" fill="none"/>
+      </g>
+      <g id="Rectangle_472687" data-name="Rectangle 472687" transform="translate(37.143 4958.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="19" height="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="18" height="14" fill="none"/>
+      </g>
+      <g id="Rectangle_472688" data-name="Rectangle 472688" transform="translate(54.143 4958.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="19" height="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="18" height="14" fill="none"/>
+      </g>
+      <g id="Rectangle_472691" data-name="Rectangle 472691" transform="translate(71.143 4958.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="19" height="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="18" height="14" fill="none"/>
+      </g>
+    </g>
+    <path id="Path_1371401" data-name="Path 1371401" d="M7690.793-6702.688h-13.606v70.713h16.284" transform="translate(-7551.889 11612.646)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Rectangle_472705" data-name="Rectangle 472705" transform="translate(147.143 4899.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+      <rect width="43" height="22" rx="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="42" height="21" rx="6.5" fill="none"/>
+    </g>
+    <g id="Rectangle_472706" data-name="Rectangle 472706" transform="translate(147.143 4933.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+      <rect width="43" height="23" rx="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="42" height="22" rx="6.5" fill="none"/>
+    </g>
+    <g id="Rectangle_472707" data-name="Rectangle 472707" transform="translate(147.143 4970.087)" fill="#fff" stroke="#12263f" stroke-width="1">
+      <rect width="43" height="22" rx="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="42" height="21" rx="6.5" fill="none"/>
+    </g>
+  </g>
+</svg>
