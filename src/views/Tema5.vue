@@ -55,7 +55,7 @@
         .px-5
           .row.justify-content-center.mb-5
             .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
-              .caja-5.color-4.text-white.h-100
+              .caja-5.h-100
                 .row.justify-content-center.mb-3
                   .col-7
                     figure.mb-4(data-aos="fade-right")
@@ -147,11 +147,11 @@
         .px-5
           .row.justify-content-center.mb-5
             .col-xl-4.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
-              .caja-5.color-4.text-white.h-100
+              .caja-5.h-100
                 .row.justify-content-center.mb-3
                   .col-7
                     figure.mb-4(data-aos="fade-right")
-                      img(src='@/assets/curso/temas/t5/img12.svg', alt="" style="max-width: 90px").m-auto
+                      img(src='@/assets/curso/temas/t5/img12.svg', alt="" style="max-width: 70px").m-auto
                   h4.text-center Soporte de notaciones estándar
                   p.mb-0.text-center La herramienta debe permitir utilizar notaciones ampliamente reconocidas, como #[b #[i Information Engineering] (IE)] o #[b IDEF1X], facilitando la interpretación de los modelos por parte de analistas, diseñadores de datos y administradores de bases de datos (DBA).
             .col-xl-4.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -159,7 +159,7 @@
                 .row.justify-content-center.mb-3
                   .col-7
                     figure.mb-4(data-aos="fade-right")
-                      img(src='@/assets/curso/temas/t5/img13.svg', alt="" style="max-width: 90px").m-auto
+                      img(src='@/assets/curso/temas/t5/img13.svg', alt="" style="max-width: 220px").m-auto
                   h4.text-center Ingeniería hacia adelante (#[i Forward Engineering])
                   p.mb-0.text-center Permite generar automáticamente el código SQL a partir del modelo lógico. Mediante este proceso, la herramienta crea instrucciones como #[b CREATE TABLE], #[b ALTER TABLE], #[b PRIMARY KEY] y #[b FOREIGN KEY], listas para ejecutarse en un Sistema de Gestión de Bases de Datos (SGBD).
             .col-xl-4.col-md-9(data-aos="zoom-in")
@@ -167,7 +167,7 @@
                 .row.justify-content-center.mb-3
                   .col-7
                     figure.mb-4(data-aos="fade-left")
-                      img(src='@/assets/curso/temas/t5/img14.svg', alt="" style="max-width: 90px").m-auto
+                      img(src='@/assets/curso/temas/t5/img14.svg', alt="" style="max-width: 100px").m-auto
                   h4.text-center Ingeniería inversa (#[i Reverse Engineering])
                   p.mb-0.text-center Permite reconstruir el modelo lógico a partir de una base de datos existente. Para ello, la herramienta analiza la estructura almacenada en el SGBD y genera automáticamente el diagrama correspondiente, facilitando las actividades de documentación, mantenimiento y auditoría.
           p.mb-5 Actualmente existen diversas herramientas CASE que apoyan el diseño de bases de datos y ofrecen funcionalidades orientadas a diferentes tipos de proyectos:
